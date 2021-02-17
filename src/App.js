@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles/styles.css';
 import Loading from 'react-loading';
-import Banner from './components/Banner';
-import Conhecimento from './components/Conhecimento';
-import Informacoes from './components/Informacoes';
-import Header from './components/Header';
 import Routes from './routes';
 
 function App() {
