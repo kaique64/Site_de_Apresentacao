@@ -1,0 +1,48 @@
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: zoom 15s;
+  height: 450px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.banner .txtBanner{
+  color: white;
+}
+
+.apresentacao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.niveis{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.status-bar{
+  height: 10px;
+  width: 250px;
+  background-color: lightgray;
+}
+
+/* Criando zoom do banner ao carregar a página */
+@keyframes zoom{
+  0%{
+      transform: scale(1.3);
+  }
+  100%{
+      transform: scale(1);
+  }
+}

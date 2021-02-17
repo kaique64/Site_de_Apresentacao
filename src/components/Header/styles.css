@@ -1,0 +1,35 @@
+.header-a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+  color: white;
+  background-color: rgb(17, 17, 17);
+  /* opacity: .8; */
+  position: relative;
+}
+
+/* Editando itens da API */
+.api-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.api-items img{
+  height: 50px;
+  border-radius: 5px;
+}
+
+.api-items p{
+  margin-left: 10px;
+}
+
+/* Icones do header */
+.icons-header{
+  margin: 10px;
+}

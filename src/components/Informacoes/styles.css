@@ -1,0 +1,56 @@
+.infos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 750px;
+  background-image: url(https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdGl2aXR5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .95;
+  color: white;
+}
+
+.infos .titulo-infos{
+  text-align: center;
+  font-size: 50px;
+}
+
+.curriculo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  text-align: justify;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  height: 560px;
+  width: 100%;
+  transition: .5s ease-in-out;
+}
+
+.curriculo:hover{
+  height: 580px;
+  border: 2px solid black;
+}
+
+.infosTxt{
+  margin-top: 10px
+}
+
+.link-curriculo{
+  display: flex;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: .25s ease-in-out;
+}
+
+.link-curriculo:hover{
+  color: rgb(131, 131, 131);
+}
