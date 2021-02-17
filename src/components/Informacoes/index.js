@@ -35,6 +35,11 @@ export default function Informacoes() {
         <p>
           <a href="https://www.github.com/kaique64"> https://www.github.com/kaique64 </a>
         </p>
+
+        <strong className="infosTxt"> Linkedin: </strong>
+        <p>
+          <a href="https://www.linkedin.com/in/kaique-henrique-064b261b2"> https://www.linkedin.com/in/kaique-henrique-064b261b2 </a>
+        </p>
         <strong className="infosTxt"> Formação: </strong>
         <ul>
           <p className="infosTxt">
@@ -51,6 +56,43 @@ export default function Informacoes() {
               SENAI Prof. Dr. Euryclides de Jesus Zerbini | Conclusão: 06/2021
             </li>
           </p>
+        </ul>
+
+        <strong className="infosTxt"> Conhecimentos: </strong>
+        <ul>
+          <li>
+            <p> HTML (Avançado) </p>
+          </li>
+          <li>
+            <p> CSS (Intermediário) </p>
+          </li>
+          <li>
+            <p> JavaScript (Avançado) </p>
+          </li>
+          <li>
+            <p> Java (Básico) </p>
+          </li>
+          <li>
+            <p> C# ASP .NET Framework (Básico) </p>
+          </li>
+          <li>
+            <p> MySQL (Básico) </p>
+          </li>
+          <li>
+            <p> MongoDB (Básico) </p>
+          </li>
+          <li>
+            <p> Python (Básico) </p>
+          </li>
+          <li>
+            <p> ReactJS (Avançado) </p>
+          </li>
+          <li>
+            <p> NodeJS (Intermediário) </p>
+          </li>
+          <li>
+            <p> React Native (Básico) </p>
+          </li>
         </ul>
 
         <strong className="infosTxt"> Idiomas: </strong>
